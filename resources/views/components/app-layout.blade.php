@@ -10,16 +10,15 @@
     <title>
 
         @isset($title)
-        {{$title}} / Laravel 11
+        {{ $title }} / Laravel 11
         @else
-        Laravel 11
+            Laravel 11
         @endisset
     </title>
 
 </head>
 
 <body class="h-full">
-
     <div class="min-h-full">
         <x-navbar/>
 
